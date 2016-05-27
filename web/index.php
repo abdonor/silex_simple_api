@@ -26,7 +26,6 @@ $app->get('/', function () use ($arr) {
     return $output;
 });
 
-
 $app->get('/user', function () use ($arr, $app) {
     $output = [
         'people' => [
@@ -57,7 +56,7 @@ $app->get('/user', function () use ($arr, $app) {
         ]
     ];
 
-    return $app->json($output,200);
+    return $app->json($output, 200);
 });
 
 $app->run();
