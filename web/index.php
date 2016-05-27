@@ -44,15 +44,15 @@ $app->get('/user', function () use ($arr, $app) {
                 'profession' => 'Politician',
                 'adjective' => 'Honest',
                 'login' => 'jair.myth',
-                'password' => 'anticommunism',
+                'password' => 'turndownforwhat',
             ],
             [
-                'name' => 'Dilma Rousseff',
-                'age'  => '68',
-                'profession' => 'Terrorist, ex-president',
-                'adjective' => 'Thief, robber, communist',
-                'login' => 'fidelita.castro',
-                'password' => 'myassiscommunist',
+                'name' => 'Tiririca',
+                'age'  => '50',
+                'profession' => 'Clown, politician',
+                'adjective' => 'funny',
+                'login' => 'florentina.florentina',
+                'password' => 'piorquetanaofica',
             ]
         ]
     ];
